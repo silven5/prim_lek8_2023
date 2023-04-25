@@ -1,0 +1,59 @@
+.tusk {
+  animation: tusk 1.1s infinite ease-in-out alternate;
+}
+
+.leftear {
+  animation: leftear 1.7s infinite ease-in-out alternate;
+}
+
+.leftfoot {
+  animation: leftfoot 3s infinite ease-in-out alternate
+}
+
+.eyes {
+  animation: eyes 4s infinite ease-in;
+}
+
+@keyframes leftfoot {
+  0% {
+    transform: scale(1.0);
+  }
+
+  100% {
+    transform: scale(0.97);
+  }
+}
+
+@keyframes eyes {
+  0% {
+    opacity: 1.0;
+  }
+
+  90% {
+    opacity: 1.0;
+  }
+
+  100% {
+    opacity: 0.0;
+  }
+}
+
+@keyframes leftear {
+  0% {
+    transform: translateX(-5px) skewX(5deg);
+  }
+
+  100% {
+    transform: translateX(5px) skewX(-5deg);
+  }
+}
+
+@keyframes tusk {
+  0% {
+    transform: translateX(-5px) skewX(5deg);
+  }
+
+  100% {
+    transform: translateX(5px) skewX(-5deg);
+  }
+}
